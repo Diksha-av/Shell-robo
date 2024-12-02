@@ -16,7 +16,7 @@ curl -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue
 cd /app
 unzip /tmp/catalogue.zip
 
-cd /app
+#cd /app
 npm install
 
 #cp catalogue.service /etc/systemd/system/catalogue.service
